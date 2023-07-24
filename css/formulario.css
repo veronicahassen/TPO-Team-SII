@@ -1,0 +1,323 @@
+* {
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.nav li a {
+    text-decoration: none;
+
+}
+
+
+form{
+    margin: 20px;
+}
+
+label{
+    padding: 5px;
+}
+
+
+
+[class*="fa fa"] {
+    color: #242F9B;
+  }
+  
+  [class*="fa fa"]:hover {
+    color: #DBDFFD;
+  }
+  
+  [class*="fa fa"]:active {
+    color: #141836d2;
+  }
+
+  .hero{ 
+    height: 600px;
+
+    margin-bottom: 100px;
+}
+  
+
+  
+
+  /* Esto es para hacer el sistema de grid y la edicion en diferentes dispositovos*/
+
+.contenedor {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: auto;
+  }
+  
+  .fila {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    clear: both;
+    display: table;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    border: 0px solid black;
+  }
+  
+  .col-12 {
+    width: 100%;
+  }
+  
+  .col-11 {
+    width: 91.66666667%;
+  }
+  
+  .col-10 {
+    width: 83.33333333%;
+  }
+  
+  .col-9 {
+    width: 75%;
+  }
+  
+  .col-8 {
+    width: 66.66666667%;
+  }
+  
+  .col-7 {
+    width: 58.33333333%;
+  }
+  
+  .col-6 {
+    width: 50%;
+  }
+  
+  .col-5 {
+    width: 41.66666667%;
+  }
+  
+  .col-4 {
+    width: 33.33333333%;
+  }
+  
+  .col-3 {
+    width: 25%;
+  }
+  
+  .col-2 {
+    width: 16.66666667%
+  }
+  
+  .col-1 {
+    width: 8.33333333%;
+  }
+  
+  
+  
+  /* Para dispositivos grandes tipo pc - lg */
+  
+  @media (min-width:1200px) {
+    .col-lg-12 {
+        width: 100%;
+    }
+  
+    .col-lg-11 {
+        width: 91.66666667%;
+    }
+  
+    .col-lg-10 {
+        width: 83.33333333%;
+    }
+  
+    .col-lg-9 {
+        width: 75%;
+    }
+  
+    .col-lg-8 {
+        width: 66.66666667%;
+    }
+  
+    .col-lg-7 {
+        width: 58.33333333%;
+    }
+  
+    .col-lg-6 {
+        width: 50%;
+    }
+  
+    .col-lg-5 {
+        width: 41.66666667%;
+    }
+  
+    .col-lg-4 {
+        width: 33.33333333%;
+    }
+  
+    .col-lg-3 {
+        width: 25%;
+    }
+  
+    .col-lg-2 {
+        width: 16.66666667%
+    }
+  
+    .col-lg-1 {
+        width: 8.33333333%;
+    }
+
+    .form-group{
+        padding: 10px;
+    }
+
+    button{
+        margin:45px 10px 90px 10px;
+    }
+      .nosoybot{
+        margin:50px 0 10px 12px;
+      }
+.btn{
+    width: 130px;
+
+}
+  }
+  
+    
+  
+  
+  /* Para dispositivos medianos tipo tables - md */
+  @media(max-width:1199px) and (min-width:768px) {
+    .col-md-12 {
+        width: 100%;
+    }
+  
+    .col-md-11 {
+        width: 91.66666667%;
+    }
+  
+    .col-md-10 {
+        width: 83.33333333%;
+    }
+  
+    .col-md-9 {
+        width: 75%;
+    }
+  
+    .col-md-8 {
+        width: 66.66666667%;
+    }
+  
+    .col-md-7 {
+        width: 58.33333333%;
+    }
+  
+    .col-md-6 {
+        width: 50%;
+    }
+  
+    .col-md-5 {
+        width: 41.66666667%;
+    }
+  
+    .col-md-4 {
+        width: 33.33333333%;
+    }
+  
+    .col-md-3 {
+        width: 25%;
+    }
+  
+    .col-md-2 {
+        width: 16.66666667%
+    }
+  
+    .col-md-1 {
+        width: 8.33333333%;
+    }
+  
+    .form-group{
+        padding: 10px;
+    }
+
+    button{
+        margin:10px 10px 80px 10px;
+    }
+      .nosoybot{
+        margin:10px 0 0px 0px;
+      }
+      .btn{
+        width: 130px;
+    
+    }
+  }
+  
+  
+  /* Para dispositivos pequeños tipo telefonos - xs */
+  @media(max-width:767px) {
+    .col-xs-12 {
+        width: 100%;
+    }
+  
+    .col-xs-11 {
+        width: 91.66666667%;
+    }
+  
+    .col-xs-10 {
+        width: 83.33333333%;
+    }
+  
+    .col-xs-9 {
+        width: 75%;
+    }
+  
+    .col-xs-8 {
+        width: 66.66666667%;
+    }
+  
+    .col-xs-7 {
+        width: 58.33333333%;
+    }
+  
+    .col-xs-6 {
+        width: 50%;
+    }
+  
+    .col-xs-5 {
+        width: 41.66666667%;
+    }
+  
+    .col-xs-4 {
+        width: 33.33333333%;
+    }
+  
+    .col-xs-3 {
+        width: 25%;
+    }
+  
+    .col-xs-2 {
+        width: 16.66666667%
+    }
+  
+    .col-xs-1 {
+        width: 8.33333333%;
+    }
+  
+
+  
+   
+  
+
+.cosas{
+    width: 80%;
+    margin: 20px;
+    padding: 40px;
+}
+  button{
+    margin:10px 0px 80px 80%;
+}
+  
+  }
+
+  
+  
